@@ -106,7 +106,7 @@ namespace LDRPIDTool
 
                     session.Open();
                 }
-                catch (Exception ex)
+                catch
                 {
                     errors++;
                     closedCount++;
